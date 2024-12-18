@@ -1,0 +1,20 @@
+{
+  "name": "fill-in-the-fun",
+  "version": "1.0.0",
+  "description": "A daily fill-in-the-blank word game using Reddit's Devvit platform.",
+  "main": "src/main.tsx",
+  "scripts": {
+    "build": "tsc",
+    "upload": "devvit upload",
+    "playtest": "devvit playtest"
+  },
+  "author": "Sanjnah Ananda Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "@devvit/public-api": "0.11.4"
+  },
+  "devDependencies": {
+    "@devvit/tsconfig": "0.11.4",
+    "typescript": "^5.7.2"
+  }
+}
